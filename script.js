@@ -1,4 +1,4 @@
-const url = 'https://dog.ceo/dog-api/';
+const url = 'https://jsonplaceholder.typicode.com/users';
 
 const getData = async (url) => {
     const response = await fetch(url);
