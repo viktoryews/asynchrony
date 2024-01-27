@@ -1,0 +1,26 @@
+body {
+    background-color: rgb(88, 88, 88);
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    padding: 10px;
+    margin-bottom: 10px;
+    gap: 20px;
+    width: 1140px;
+    height: 1395px;
+    position: relative;
+}
+
+img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    box-shadow: 0px 0px 15px 10px #fbf9f9;
+}
+
+.container {
+    margin: 0 auto;
+}

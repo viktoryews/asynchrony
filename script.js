@@ -13,7 +13,6 @@ try {
     console.log(data);
     data.forEach(el => {
         containerBox.insertAdjacentHTML('beforeend', `
-        <div>
         <div class="description"> 
         id: <span>${el.id}</span> <br> 
         name: <span>${el.name}</span> <br> 
