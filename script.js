@@ -10,7 +10,6 @@ const containerBox = document.querySelector('.container');
 
 try {
     const data = await getData(url);
-    console.log(data);
     data.forEach(el => {
         containerBox.insertAdjacentHTML('beforeend', `
         <div class="description"> 
@@ -31,6 +30,6 @@ try {
         </div>
         `)
     });
-    } catch (error) {
-        console.log(error);
-    };
+} catch (error) {
+    console.log(error);
+};
